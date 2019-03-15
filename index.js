@@ -55,7 +55,7 @@ const openUrl = async url => {
 };
 
 const main = async () => {
-  const token = await readToken();
+  const token = process.env.CIRCLE_TOKEN || await readToken();
   const gitOriginUrl = (await execFileAsync("git", ["remote", "get-url", "origin"])).trim();
   const branch = (await execFileAsync("git", ["rev-parse", "--abbrev-ref", "HEAD"])).trim();
   const vcs = parseGitUrl(gitOriginUrl);
