@@ -10,7 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "circleci-api": "^3.3.2",
-    "node-fetch": "^2.3.0",
     "yaml": "^1.4.0"
   }
 }
