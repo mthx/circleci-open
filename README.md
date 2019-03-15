@@ -4,10 +4,16 @@ Node CLI that opens the CircleCI build web page from the command line.
 
 Usage:
 
-```
+```bash
 $ npm install -g @mthx/circleci-open
 $ cd my-git-repo
 $ cio
+```
+
+or use `npx` (perhaps via a shell alias):
+
+```bash
+$ npx --package @mthx/circleci-opener cio
 ```
 
 ## Configuration
