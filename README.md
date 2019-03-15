@@ -22,3 +22,7 @@ Requires a [CircleCI API token](https://circleci.com/account/api). This CLI
 currently lifts the token from the
 [`circleci`](https://github.com/CircleCI-Public/circleci-cli) CLI config file.
 
+## Limitations
+
+- Assumes GitHub SSH URLs (easy fix)
+- Uses `open` to launch the browser so MacOS only (trivial fix for someone able to test)
