@@ -1,6 +1,6 @@
 {
   "name": "@mthx/circleci-opener",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Open CircleCI build page from the command line",
   "repository": "https://github.com/mthx/circleci-opener.git",
   "main": "index.js",

@@ -67,7 +67,7 @@ const main = async () => {
     }
   }
   const circleci = new CircleCI(options);
-  const recentBuilds = await circleci.recentBuilds({limit: 1});
+  const recentBuilds = await circleci.builds({limit: 1});
   if (recentBuilds.length === 0) {
     throw new Error("No builds for this branch.");
   }
