@@ -12,7 +12,7 @@ $ cio
 
 ## Configuration
 
-Requires a [CircleCI API token](https://circleci.com/account/api). The CLI
+Requires a [CircleCI API token](https://circleci.com/account/api). This CLI
 currently lifts the token from the
 [`circleci`](https://github.com/CircleCI-Public/circleci-cli) CLI config file.
 
