@@ -26,3 +26,4 @@ currently lifts the token from the
 
 - Assumes GitHub SSH URLs (easy fix)
 - Uses `open` to launch the browser so MacOS only (trivial fix for someone able to test)
+- Perhaps it shouldn't require an API token - what about OSS projects? Let's try this one...
