@@ -1,7 +1,7 @@
 {
-  "name": "ciop",
+  "name": "@mthx/circleci-opener",
   "version": "0.1.0",
-  "description": "",
+  "description": "Open CircleCI build page from the command line",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
