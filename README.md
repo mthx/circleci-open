@@ -5,7 +5,7 @@ Node CLI that opens the CircleCI build web page from the command line.
 Usage:
 
 ```bash
-$ npm install -g @mthx/circleci-open
+$ npm install -g @mthx/circleci-opener
 $ cd my-git-repo
 $ cio
 ```
