@@ -10,7 +10,7 @@ $ cd my-git-repo
 $ cio
 ```
 
-or use `npx` (perhaps via a shell alias):
+or use `npx` to try it out quickly:
 
 ```bash
 $ npx --package @mthx/circleci-opener cio
